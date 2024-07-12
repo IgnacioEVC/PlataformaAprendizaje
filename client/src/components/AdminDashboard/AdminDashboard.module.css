@@ -1,0 +1,240 @@
+.dashboardContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.optionsContainer {
+    background-color: rgba(0, 0, 0, 0.95);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.8);
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tableContainer {
+    background-color: rgba(0, 0, 0, 0.95);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.8);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    border: 2px;
+    border-radius: 20px;
+    height: 90vh;
+    overflow-y: scroll;
+    margin-bottom: 2%;
+}
+
+.table {
+    background-color: rgba(50, 50, 50, 0.95);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    border: 5px solid rgba(50, 50, 50, 0.95);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.title {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.modal {
+    color: white;
+    display: flex;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    font-family: "Raleway", sans-serif;
+    min-width: 50%;
+    min-height: 50%;
+    margin-top: 20%;
+}
+
+.modalHeader {
+    background-color: rgba(0, 0, 0, 1) !important;
+    border: 1px solid white !important;
+}
+
+.modalBody {
+    background-color: rgba(0, 0, 0, 1) !important;
+    border: 1px solid white !important;
+}
+
+.modalFooter {
+    background-color: rgba(0, 0, 0, 1) !important;
+    border: 1px solid white !important;
+}
+
+.seleccion {
+    padding: 2%;
+}
+
+.modalContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    background-color: rgba(66, 62, 66, 0.8) !important;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1) !important;
+    backdrop-filter: blur(2px) !important;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.8) !important;
+    color: white !important;
+    display: flex !important;
+    padding: 2% !important;
+    border: 2px !important;
+    border-radius: 8px !important;
+    outline: none !important;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 15px;
+}
+
+
+.btnActionHistory {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-shadow: 0px 2x 2px rgba(0, 0, 0, 1) !important;
+    border-radius: 10px !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btnActionHistory:hover {
+    background-color: rgb(33, 86, 202);
+    box-shadow: 0 0 5px rgb(33, 86, 202), 0 0 10px rgb(33, 86, 202), 0 0 15px rgb(33, 86, 202);
+}
+
+.btnActionUpdate {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-shadow: 0px 2x 2px rgba(0, 0, 0, 1) !important;
+    border-radius: 10px !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btnActionUpdate:hover {
+    background-color: rgb(18, 95, 59);
+    box-shadow: 0 0 5px rgb(18, 95, 59), 0 0 10px rgb(18, 95, 59), 0 0 15px rgb(18, 95, 59);
+}
+
+.btnActionDelete {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-shadow: 0px 2x 2px rgba(0, 0, 0, 1) !important;
+    border-radius: 10px !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btnActionDelete:hover {
+    background-color: rgb(211, 70, 59);
+    box-shadow: 0 0 5px rgb(211, 70, 59), 0 0 10px rgb(211, 70, 59), 0 0 15px rgb(211, 70, 59);
+}
+
+.btn{
+    display: flex !important;
+    justify-content: center !important;
+    font-weight: bold !important;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1) !important;
+    margin-top: 5px !important;
+    border-radius: 10px !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(18, 95, 59);
+    box-shadow: 0 0 5px rgb(18, 95, 59), 0 0 10px rgb(18, 95, 59), 0 0 15px rgb(18, 95, 59);
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.columnHeaderCenter {
+    background-color: rgba(25, 135, 84, 1);
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 10px 8px;
+    font-weight: 800;
+}
+
+.columnHeaderLeft {
+    background-color: rgba(25, 135, 84, 1);
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-top-left-radius: 20px;
+    padding: 10px 8px;
+    font-weight: 800;
+}
+.columnHeaderRight {
+    background-color: rgba(25, 135, 84, 1);
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-top-right-radius: 20px;
+    padding: 10px 8px;
+    font-weight: 800;
+}
+
+.columnCenter {
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 8px;
+}
+
+.columnLeft {
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 8px;
+}
+.columnRight {
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 8px;
+}
+
+.transparentModal .modal-content {
+    background-color: rgba(255, 255, 255, 1); /* Opaque white background for the modal content */
+}
+
+.transparentModal .modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the backdrop */
+}

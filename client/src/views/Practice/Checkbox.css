@@ -1,0 +1,5 @@
+.checkbox .form-check-input:checked {
+    background-color: rgba(25, 135, 84, 1) !important;
+    border-color: rgba(25, 135, 84, 1) !important;
+  }
+  

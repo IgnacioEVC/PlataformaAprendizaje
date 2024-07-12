@@ -1,0 +1,120 @@
+.historyContainer{
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: white !important;
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 95vh;
+    height: auto !important;
+}
+
+.titleContainer{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-bottom: 2% !important;
+}
+
+.title{
+    font-weight: 700 !important;
+}
+
+.recordsContainer{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 2% 1% !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border-radius: 10px !important;
+}
+
+.records{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-width: 80vw !important;
+    margin-bottom: 2%;
+}
+
+.recordsBackground{
+    background-color: rgba(0, 0, 0, 0.99) !important;
+    color: white !important;
+    border: 2px solid rgba(25, 135, 84, 0.4)!important;
+}
+
+.recordsTitle{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-width: 85vw !important;
+}
+
+h2 button {
+    background-color: rgba(25, 135, 84, 0.7) !important;
+    color: white !important;
+}
+
+h2 button:focus {
+    box-shadow: 0 0 5px 2px rgba(25, 135, 84, 0.7) !important;
+}
+
+.accordion-body-custom {
+    background-color: rgba(50, 50, 50, 0.99) !important;
+    color: white !important;
+}
+
+.form-check-input:checked {
+    background-color: rgba(25, 135, 84, 1)!important;
+    border-color: rgba(25, 135, 84, 1)!important;
+}
+
+.volverContainer{
+    display: flex !important;
+    margin-top: 1% !important;
+    margin-left: 1% !important;
+    margin-bottom: 1% !important;
+    align-self: flex-start !important;
+}
+
+.volverIcon{
+    display: flex !important;
+    align-self: center !important;
+    justify-content: center !important;
+    margin-right: 5px !important;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.8))!important;
+}
+
+.btn{
+    display: flex !important;
+    justify-content: center !important;
+    font-weight: bold !important;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1) !important;
+    margin-top: 5px !important;
+    border-radius: 10px !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(18, 95, 59);
+    box-shadow: 0 0 5px rgb(18, 95, 59), 0 0 10px rgb(18, 95, 59), 0 0 15px rgb(18, 95, 59);
+}
+
+.btnText {
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1) !important;
+}
+
+.historyBackground {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 5%;
+    margin-bottom: 2%;
+}
+
+.testTitle {
+    padding: 1% 2%;
+}
+
+.testBorder{
+    border: 2px solid rgba(25, 135, 84, 1) !important;
+    border-radius: 10px;
+    margin-top: 2%;
+}
